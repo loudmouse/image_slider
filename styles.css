@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+html {
+  border-top: 5px solid #fff;
+  color: #2a2a2a;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 600px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+
+#slider ul li.slide1 {
+  background-image: url("https://artmill.blob.core.windows.net/cms/image/6b8d139a81614cef9cb607dcd50d29b7/install1_1.jpg");
+  background-size: contain;
+  background-repeat:  no-repeat;
+}
+
+#slider ul li.slide2 {
+  background-image: url("https://artmill.blob.core.windows.net/cms/image/9c9e70a218f74cbaab50464b4c2f83e4/install2_1.jpg");
+  background-size: contain;
+  background-repeat:  no-repeat;
+}
+
+#slider ul li.slide3 {
+  background-image: url("https://artmill.blob.core.windows.net/cms/image/164ec31d227442089d5039d89a39fe7e/install3_1.jpg");
+  background-size: contain;
+  background-repeat:  no-repeat;
+}
+
+#slider ul li.slide4 {
+  background-image: url("https://artmill.blob.core.windows.net/cms/image/b16895d5b7594b30b597e79d88a1f3a1/install4_1.jpg");
+  background-size: contain;
+  background-repeat:  no-repeat;
+}
+
+#slider ul li.slide5 {
+  background-image: url("https://artmill.blob.core.windows.net/cms/image/e160b96e58c84fb5b7b8f24e259b2ad9/install5_1.jpg");
+  background-size: contain;
+  background-repeat:  no-repeat;
+}
+
+#slider ul li.slide6 {
+  background-image: url("https://artmill.blob.core.windows.net/cms/image/f7863a20e195463784f596b20fff2d22/install6_1.jpg");
+  background-size: contain;
+  background-repeat:  no-repeat;
+}
+
+#slider ul li.slide7 {
+  background-image: url("https://artmill.blob.core.windows.net/cms/image/d79a727d8a4543b09323eed519cec59e/install7_1.jpg");
+  background-size: contain;
+  background-repeat:  no-repeat;
+}
+
+#slider ul li.slide8 {
+  background-image: url("https://artmill.blob.core.windows.net/cms/image/b68732e8759f488c85c0cffc01cfb678/install8_1.jpg");
+  background-size: contain;
+  background-repeat:  no-repeat;
+}
